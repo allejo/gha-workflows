@@ -116,7 +116,7 @@ optional arguments:
 
 In the spirit of JS stuffing literally everything into `package.json`, you can use the `gha-workflows` key to configure this utility.
 
-```json
+```javascript
 {
   "name": "my-simple-app",
   // ...
