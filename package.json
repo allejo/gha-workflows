@@ -1,6 +1,6 @@
 {
   "name": "@allejo/gha-workflows",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A super simple script to manage building Workflows for GitHub Actions",
   "bin": {
     "gha-workflows": "dist/gha-workflows.js"
