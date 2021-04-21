@@ -8,6 +8,11 @@
   "author": "Vladimir \"allejo\" Jimenez",
   "license": "MIT",
   "private": false,
+  "homepage": "https://github.com/allejo/gha-workflows",
+  "bugs": {
+    "url": "https://github.com/allejo/gha-workflows/issues"
+  },
+  "keywords": ["github", "github-actions", "workflows"],
   "dependencies": {
     "argparse": "^2.0.1",
     "js-yaml": "^4.0.0",
