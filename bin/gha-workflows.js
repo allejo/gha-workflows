@@ -34,7 +34,10 @@ function processWorkflow(filepath, options) {
     const rawContents = fs.readFileSync(filepath, 'utf-8');
     const contents = yaml.load(rawContents);
 
-    const expanded = yaml.dump(contents, { noRefs: true });
+    const expanded = yaml.dump(contents, {
+        lineWidth: -1,
+        noRefs: true,
+    });
     let headerString = '';
 
     if (options.header) {
